@@ -3,7 +3,7 @@
   function hypeInit(){
     if(document.getElementById('hype-app')) return;
     var box=document.createElement('div'); box.id='hype-app';
-    box.innerHTML="<header class=\"top\">\n  <div class=\"wrap\">\n    <div class=\"brand\">Nutri\u00e7\u00e3o & Bem-Estar\n      <small>Distribuidor Independente Herbalife<\/small>\n    <\/div>\n    <nav>\n      <a href=\"#hype\">Hype Drink<\/a>\n      <a href=\"#produtos\">Produtos<\/a>\n      <a href=\"#oportunidade\">Oportunidade<\/a>\n      <a href=\"#contato\">Contato<\/a>\n    <\/nav>\n  <\/div>\n<\/header>\n\n<!-- 1. HERO: HYPE DRINK -->\n<section class=\"hero\" id=\"hype\">\n  <div class=\"wrap\">\n    <div>\n      <span class=\"tag\">O QUERIDINHO DO MOMENTO<\/span>\n      <h1>Hype Drink: energia que te acompanha o dia todo.<\/h1>\n      <p class=\"lead\">Uma bebida funcional preparada com a combina\u00e7\u00e3o de produtos Herbalife para dar mais energia, foco, disposi\u00e7\u00e3o e hidrata\u00e7\u00e3o na rotina e nos treinos.<\/p>\n      <a class=\"btn alt\" href=\"#contato\">Quero provar o meu Hype<\/a>\n      <div class=\"slogans\">\n        <span>Seu dia no modo Hype.<\/span>\n        <span>Foco no copo, energia na rotina.<\/span>\n        <span>Hidrata, anima, acompanha.<\/span>\n        <span>Treino pede Hype.<\/span>\n      <\/div>\n    <\/div>\n    <div class=\"cup\">\n      <h3>Como montamos o seu Hype<\/h3>\n      <ul>\n        <li>Base de <b>Herbal Concentrate<\/b> ou <b>N-R-G<\/b> (ch\u00e1)<\/li>\n        <li><b>Liftoff\u00ae<\/b> efervescente (energia e foco)<\/li>\n        <li><b>Fiber Concentrate<\/b> para dar sabor (opcional)<\/li>\n        <li>\u00c1gua bem gelada e gelo<\/li>\n      <\/ul>\n      <p style=\"font-size:.82rem;opacity:.85;margin:12px 0 0\">Cont\u00e9m cafe\u00edna (cerca de 85 mg por por\u00e7\u00e3o de Herbal Concentrate e 85 mg por sach\u00ea de Liftoff). N\u00e3o recomendado para gestantes, lactantes, crian\u00e7as e pessoas sens\u00edveis \u00e0 cafe\u00edna. Siga a por\u00e7\u00e3o indicada no r\u00f3tulo de cada produto.<\/p>\n    <\/div>\n  <\/div>\n<\/section>\n\n<!-- 2. PRODUTOS -->\n<section id=\"produtos\">\n  <div class=\"wrap\">\n    <h2>Nossos produtos<\/h2>\n    <p class=\"sub\">Veja cada produto com seus principais ingredientes e para que serve. Confira sempre a composi\u00e7\u00e3o completa no r\u00f3tulo oficial. Pre\u00e7os sugeridos ao consumidor em Pernambuco, sujeitos a altera\u00e7\u00e3o.<\/p>\n    <div class=\"tabs\" id=\"tabs\">\n      <button class=\"on\" data-f=\"todos\">Todos<\/button>\n      <button data-f=\"po\">Em p\u00f3<\/button>\n      <button data-f=\"liquido\">L\u00edquidos<\/button>\n      <button data-f=\"solido\">S\u00f3lidos (comprimidos, c\u00e1psulas, barras)<\/button>\n    <\/div>\n    <div id=\"lista\"><\/div>\n  <\/div>\n<\/section>\n\n<!-- 3. OPORTUNIDADE (MMN dentro das normas) -->\n<section class=\"op\" id=\"oportunidade\">\n  <div class=\"wrap\">\n    <h2>Conhe\u00e7a a oportunidade de neg\u00f3cio<\/h2>\n    <p class=\"sub\">Voc\u00ea pode ser cliente, consumir com desconto ou se tornar um Distribuidor Independente. Voc\u00ea escolhe o seu ritmo.<\/p>\n    <div class=\"steps\">\n      <div class=\"card\"><b class=\"n\">1<\/b><h3>Conhe\u00e7a os produtos<\/h3><p>Experimente, entenda os benef\u00edcios e veja se eles combinam com o seu estilo de vida.<\/p><\/div>\n      <div class=\"card\"><b class=\"n\">2<\/b><h3>Converse comigo<\/h3><p>Explico como funciona o cadastro, o plano de vendas e as regras da empresa, com transpar\u00eancia.<\/p><\/div>\n      <div class=\"card\"><b class=\"n\">3<\/b><h3>Cadastre-se oficialmente<\/h3><p>O cadastro \u00e9 feito pelo canal oficial da Herbalife, com o meu c\u00f3digo de patrocinador.<\/p><\/div>\n    <\/div>\n    <div class=\"notice\">\n      <b>Transpar\u00eancia:<\/b> os resultados de cada distribuidor dependem do esfor\u00e7o, do tempo dedicado e das vendas de produtos a clientes. N\u00e3o h\u00e1 garantia de renda. Consulte a\n      <a href=\"https://www.herbalife.com/content/dam/global-reusable-assets/documents/pd-statement-typical-distributor-earnings-pt-br.pdf\" target=\"_blank\" rel=\"noopener\">Declara\u00e7\u00e3o de Ganhos T\u00edpicos do Distribuidor<\/a> publicada pela empresa.\n    <\/div>\n  <\/div>\n<\/section>\n\n<!-- 4. CONTATO / CADASTRO -->\n<section id=\"contato\">\n  <div class=\"wrap\">\n    <h2>Fale comigo<\/h2>\n    <p class=\"sub\">Preencha os dados e eu entro em contato pelo WhatsApp.<\/p>\n    <form id=\"form\">\n      <div><label for=\"nome\">Nome<\/label><input id=\"nome\" required><\/div>\n      <div><label for=\"whats\">WhatsApp<\/label><input id=\"whats\" type=\"tel\" required placeholder=\"(00) 00000-0000\"><\/div>\n      <div><label for=\"interesse\">Tenho interesse em<\/label>\n        <select id=\"interesse\">\n          <option>Provar o Hype Drink<\/option>\n          <option>Comprar produtos<\/option>\n          <option>Acompanhamento de bem-estar<\/option>\n          <option>Conhecer a oportunidade de neg\u00f3cio<\/option>\n        <\/select>\n      <\/div>\n      <label class=\"check\"><input type=\"checkbox\" required> Autorizo o contato pelo WhatsApp e o uso dos meus dados apenas para este atendimento (LGPD).<\/label>\n      <button class=\"btn\" type=\"submit\">Enviar pelo WhatsApp<\/button>\n    <\/form>\n  <\/div>\n<\/section>\n\n<footer>\n  <div class=\"wrap\">\n    <p><b>Nutri\u00e7\u00e3o & Bem-Estar<\/b> \u2014 Distribuidor Independente Herbalife. Este site \u00e9 mantido de forma independente e n\u00e3o \u00e9 o site oficial da Herbalife.<\/p>\n    <p>Os produtos n\u00e3o se destinam a diagnosticar, tratar, curar ou prevenir qualquer doen\u00e7a. Consulte um profissional de sa\u00fade antes de iniciar qualquer programa nutricional. Resultados variam de pessoa para pessoa.<\/p>\n  <\/div>\n<\/footer>";
+    box.innerHTML="<header class=\"top\">\n  <div class=\"wrap\">\n    <div class=\"brand\">Nutri\u00e7\u00e3o & Bem-Estar\n      <small>Distribuidor Independente Herbalife<\/small>\n    <\/div>\n    <nav>\n      <a href=\"#hype\">Hype Drink<\/a>\n      <a href=\"#produtos\">Produtos<\/a>\n      <a href=\"#oportunidade\">Oportunidade<\/a>\n      <a href=\"#contato\">Contato<\/a>\n    <\/nav>\n  <\/div>\n<\/header>\n\n<!-- 1. HERO: HYPE DRINK -->\n<section class=\"hero\" id=\"hype\">\n  <div class=\"wrap\">\n    <div>\n      <span class=\"tag\">O QUERIDINHO DO MOMENTO<\/span>\n      <h1>Hype Drink: energia que te acompanha o dia todo.<\/h1>\n      <p class=\"lead\">Uma bebida funcional preparada com a combina\u00e7\u00e3o de produtos Herbalife para dar mais energia, foco, disposi\u00e7\u00e3o e hidrata\u00e7\u00e3o na rotina e nos treinos.<\/p>\n      <a class=\"btn alt\" href=\"#contato\">Quero provar o meu Hype<\/a>\n      <div class=\"slogans\">\n        <span>Seu dia no modo Hype.<\/span>\n        <span>Foco no copo, energia na rotina.<\/span>\n        <span>Hidrata, anima, acompanha.<\/span>\n        <span>Treino pede Hype.<\/span>\n      <\/div>\n    <\/div>\n    <div class=\"cup\">\n      <h3>Como montamos o seu Hype<\/h3>\n      <ul>\n        <li>Base de <b>Herbal Concentrate<\/b> ou <b>N-R-G<\/b> (ch\u00e1)<\/li>\n        <li><b>Liftoff\u00ae<\/b> efervescente (energia e foco)<\/li>\n        <li><b>Fiber Concentrate<\/b> para dar sabor (opcional)<\/li>\n        <li>\u00c1gua bem gelada e gelo<\/li>\n      <\/ul>\n      <p style=\"font-size:.82rem;opacity:.85;margin:12px 0 0\">Cont\u00e9m cafe\u00edna (cerca de 85 mg por por\u00e7\u00e3o de Herbal Concentrate e 85 mg por sach\u00ea de Liftoff). N\u00e3o recomendado para gestantes, lactantes, crian\u00e7as e pessoas sens\u00edveis \u00e0 cafe\u00edna. Siga a por\u00e7\u00e3o indicada no r\u00f3tulo de cada produto.<\/p>\n    <\/div>\n  <\/div>\n<\/section>\n\n<!-- 2. PRODUTOS -->\n<section id=\"produtos\">\n  <div class=\"wrap\">\n    <h2>Nossos produtos<\/h2>\n    <p class=\"sub\">Veja cada produto com seus principais ingredientes e para que serve. Confira sempre a composi\u00e7\u00e3o completa no r\u00f3tulo oficial. Pre\u00e7os sugeridos ao consumidor em Pernambuco, sujeitos a altera\u00e7\u00e3o.<\/p>\n    <div class=\"tabs\" id=\"tabs\">\n      <button class=\"on\" data-f=\"todos\">Todos<\/button>\n      <button data-f=\"po\">Em p\u00f3<\/button>\n      <button data-f=\"liquido\">L\u00edquidos<\/button>\n      <button data-f=\"solido\">S\u00f3lidos (comprimidos, c\u00e1psulas, barras)<\/button>\n      <button data-f=\"pele\">Pele e corpo<\/button>\n    <\/div>\n    <div id=\"lista\"><\/div>\n  <\/div>\n<\/section>\n\n<!-- 3. OPORTUNIDADE (MMN dentro das normas) -->\n<section class=\"op\" id=\"oportunidade\">\n  <div class=\"wrap\">\n    <h2>Conhe\u00e7a a oportunidade de neg\u00f3cio<\/h2>\n    <p class=\"sub\">Voc\u00ea pode ser cliente, consumir com desconto ou se tornar um Distribuidor Independente. Voc\u00ea escolhe o seu ritmo.<\/p>\n    <div class=\"steps\">\n      <div class=\"card\"><b class=\"n\">1<\/b><h3>Conhe\u00e7a os produtos<\/h3><p>Experimente, entenda os benef\u00edcios e veja se eles combinam com o seu estilo de vida.<\/p><\/div>\n      <div class=\"card\"><b class=\"n\">2<\/b><h3>Converse comigo<\/h3><p>Explico como funciona o cadastro, o plano de vendas e as regras da empresa, com transpar\u00eancia.<\/p><\/div>\n      <div class=\"card\"><b class=\"n\">3<\/b><h3>Cadastre-se oficialmente<\/h3><p>O cadastro \u00e9 feito pelo canal oficial da Herbalife, com o meu c\u00f3digo de patrocinador.<\/p><\/div>\n    <\/div>\n    <div class=\"notice\">\n      <b>Transpar\u00eancia:<\/b> os resultados de cada distribuidor dependem do esfor\u00e7o, do tempo dedicado e das vendas de produtos a clientes. N\u00e3o h\u00e1 garantia de renda. Consulte a\n      <a href=\"https://www.herbalife.com/content/dam/global-reusable-assets/documents/pd-statement-typical-distributor-earnings-pt-br.pdf\" target=\"_blank\" rel=\"noopener\">Declara\u00e7\u00e3o de Ganhos T\u00edpicos do Distribuidor<\/a> publicada pela empresa.\n    <\/div>\n  <\/div>\n<\/section>\n\n<!-- 4. CONTATO / CADASTRO -->\n<section id=\"contato\">\n  <div class=\"wrap\">\n    <h2>Fale comigo<\/h2>\n    <p class=\"sub\">Preencha os dados e eu entro em contato pelo WhatsApp.<\/p>\n    <form id=\"form\">\n      <div><label for=\"nome\">Nome<\/label><input id=\"nome\" required><\/div>\n      <div><label for=\"whats\">WhatsApp<\/label><input id=\"whats\" type=\"tel\" required placeholder=\"(00) 00000-0000\"><\/div>\n      <div><label for=\"interesse\">Tenho interesse em<\/label>\n        <select id=\"interesse\">\n          <option>Provar o Hype Drink<\/option>\n          <option>Comprar produtos<\/option>\n          <option>Acompanhamento de bem-estar<\/option>\n          <option>Conhecer a oportunidade de neg\u00f3cio<\/option>\n        <\/select>\n      <\/div>\n      <label class=\"check\"><input type=\"checkbox\" required> Autorizo o contato pelo WhatsApp e o uso dos meus dados apenas para este atendimento (LGPD).<\/label>\n      <button class=\"btn\" type=\"submit\">Enviar pelo WhatsApp<\/button>\n    <\/form>\n  <\/div>\n<\/section>\n\n<footer>\n  <div class=\"wrap\">\n    <p><b>Nutri\u00e7\u00e3o & Bem-Estar<\/b> \u2014 Distribuidor Independente Herbalife. Este site \u00e9 mantido de forma independente e n\u00e3o \u00e9 o site oficial da Herbalife.<\/p>\n    <p>Os produtos n\u00e3o se destinam a diagnosticar, tratar, curar ou prevenir qualquer doen\u00e7a. Consulte um profissional de sa\u00fade antes de iniciar qualquer programa nutricional. Resultados variam de pessoa para pessoa.<\/p>\n  <\/div>\n<\/footer>";
     var alvo=null, els=document.querySelectorAll('p,div,span,h1,h2,h3');
     for(var i=0;i<els.length;i++){ if(els[i].children.length===0 && els[i].textContent.trim()==='HYPE_AQUI'){ alvo=els[i]; break; } }
     if(alvo){ alvo.replaceWith(box); }
@@ -63,6 +63,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbal Concentrate",
+  "tamanhos": "51 g: R$ 222,00 \u00b7 357 g: R$ 1.072,00",
   "preco": "364,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 102 g",
@@ -135,6 +136,7 @@ const PRODUTOS = [
  },
  {
   "nome": "N-R-G",
+  "tamanhos": "60 g: R$ 158,00 \u00b7 330 g: R$ 668,00",
   "preco": "252,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 100 g",
@@ -147,6 +149,7 @@ const PRODUTOS = [
  },
  {
   "nome": "NutreV",
+  "tamanhos": "Pack com 10 unidades: R$ 790,00",
   "preco": "79,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 672 g",
@@ -207,6 +210,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Protein Powder",
+  "tamanhos": "240 g: R$ 221,00",
   "preco": "401,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 480 g",
@@ -219,6 +223,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Shake",
+  "tamanhos": "Sach\u00ea (caixa com 7): R$ 87,00 \u00b7 Pacote 2 kg: R$ 827,00",
   "preco": "246,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 550 g",
@@ -336,18 +341,107 @@ const PRODUTOS = [
   "ingredientes": "Carbonato de c\u00e1lcio (carbonato de c\u00e1lcio e maltodextrina), \u00f3xido de magn\u00e9sio, colecalciferol (amido modificado, sacarose, triglicer\u00eddeos de cadeia m\u00e9dia, colecalciferol, antioxidantes: ascorbato de s\u00f3dio e DL-alfa-tocoferol e antiumectante di\u00f3xido de sil\u00edcio), estabilizantes: celulose microcristalina, croscarmelose s\u00f3dica e hidroxipropilmetilcelulose, corante di\u00f3xido de tit\u00e2nio e umectante glicerina. N\u00c3O CONT\u00c9M GL\u00daTEN.",
   "link": "https://www.herbalife.com/pt-br/u/products/xtra-cal-60-tabletes-0020",
   "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-1230-br.png"
+ },
+ {
+  "nome": "Protein Ice Cream (Gelato Proteico)",
+  "preco": "473,00",
+  "tipo": "po",
+  "formato": "P\u00f3 \u00b7 pouch 1,040 kg",
+  "sabores": "Baunilha, Chocolate",
+  "para": "Mistura em p\u00f3 para preparar um gelato proteico em casa.",
+  "modo": "Siga o modo de preparo indicado no r\u00f3tulo.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/products/protein-ice-cream-baunilha-pack-535k",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-535k-br.png"
+ },
+ {
+  "nome": "Herbalife SKIN\u00ae Cleanser Facial C\u00edtrico",
+  "preco": "102,00",
+  "tipo": "pele",
+  "formato": "Gel de limpeza \u00b7 150 ml",
+  "para": "Gel de limpeza facial com esferas de jojoba e aroma c\u00edtrico. Ajuda a limpar a pele e controlar a oleosidade.",
+  "modo": "Aplique no rosto \u00famido, massageie suavemente e enx\u00e1gue. Siga as instru\u00e7\u00f5es do r\u00f3tulo.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/products/herbalife-skin-cleanser-facial-citrico-150ml-0766",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0766-br.png"
+ },
+ {
+  "nome": "Herbalife SKIN\u00ae M\u00e1scara Purificante de Argila",
+  "preco": "188,00",
+  "tipo": "pele",
+  "formato": "M\u00e1scara facial \u00b7 120 ml",
+  "para": "M\u00e1scara de argila com menta que limpa a pele e absorve o excesso de oleosidade.",
+  "modo": "Aplique ap\u00f3s a limpeza, deixe agir de 5 a 10 minutos e enx\u00e1gue. Use de 1 a 3 vezes por semana.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/category/all-products",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0773-br.png"
+ },
+ {
+  "nome": "Herbalife SKIN\u00ae Gel Firmador para os Olhos",
+  "preco": "282,00",
+  "tipo": "pele",
+  "formato": "Gel \u00b7 15 ml",
+  "para": "Gel para a \u00e1rea dos olhos, da linha Herbalife SKIN.",
+  "modo": "Siga as instru\u00e7\u00f5es do r\u00f3tulo.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/category/all-products",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0770-br.png"
+ },
+ {
+  "nome": "Herbalife SKIN\u00ae S\u00e9rum Facial Redutor de Linhas",
+  "preco": "387,00",
+  "tipo": "pele",
+  "formato": "S\u00e9rum \u00b7 30 ml",
+  "para": "S\u00e9rum com pept\u00eddeos, babosa e vitaminas C e E, para uma pele mais suave e luminosa.",
+  "modo": "Aplique ap\u00f3s a limpeza, antes do hidratante. Siga as instru\u00e7\u00f5es do r\u00f3tulo.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/products/herbalife-skin-serum-30ml-0768",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0768-br.png"
+ },
+ {
+  "nome": "Soft Green Hidratante Corporal",
+  "preco": "82,00",
+  "tipo": "pele",
+  "formato": "Creme \u00b7 200 g",
+  "para": "Hidratante corporal com ch\u00e1 verde.",
+  "modo": "Aplique sobre a pele limpa. Siga as instru\u00e7\u00f5es do r\u00f3tulo.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/products/soft-green-hidratante-corporal-cha-verde-200g-0431",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0431-br.png"
+ },
+ {
+  "nome": "Soft Green Desodorante Roll-on",
+  "preco": "30,00",
+  "tipo": "pele",
+  "formato": "Roll-on",
+  "para": "Desodorante com o frescor do ch\u00e1 verde.",
+  "modo": "Aplique nas axilas limpas e secas.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/category/all-products",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0563-br.png"
+ },
+ {
+  "nome": "Soft Green Sabonete em Barra",
+  "preco": "21,00",
+  "tipo": "pele",
+  "formato": "Sabonete em barra",
+  "para": "Sabonete enriquecido com ch\u00e1 verde, que limpa suavemente sem ressecar a pele.",
+  "modo": "Use no banho, com \u00e1gua.",
+  "ingredientes": "Consulte a lista completa de ingredientes no r\u00f3tulo oficial.",
+  "link": "https://www.herbalife.com/pt-br/u/category/all-products",
+  "foto": "https://www.herbalife.com/content/dam/market-reusable-assets/amer/brazil/images/canister/pc-0411-br.png"
  }
 ];
 
 /* ======= SEU WHATSAPP (somente n\u00fameros, com DDI 55) ======= */
 const MEU_WHATS = "5581999097522";
 const lista = document.getElementById('lista');
-const nomes = {po:"Em p\u00f3", liquido:"L\u00edquido", solido:"S\u00f3lido"};
+const nomes = {po:"Em p\u00f3", liquido:"L\u00edquido", solido:"S\u00f3lido", pele:"Pele e corpo"};
 function resumo(t){const s=t.split(/,\s*(?![^()]*\))/).slice(0,4).join(', ');return s.length<t.length?s+'\u2026':s;}
 function render(f){
   lista.innerHTML = PRODUTOS.filter(p => f==="todos" || p.tipo===f).map(p => `
     <article class="prod">
-      <div class="name">${p.foto?`<a class="fotobox" href="${p.foto}" target="_blank" rel="noopener" style="display:block"><img class="foto" src="${p.foto}" alt="${p.nome}" loading="lazy" onerror="this.parentNode.style.display='none'"><small>Clique para ampliar</small></a>`:''}<span class="pill">${nomes[p.tipo]}</span><h3>${p.nome}</h3><p style="color:var(--muted);font-size:.9rem">${p.formato}</p>${p.sabores?`<p style="font-size:.85rem;margin-top:6px"><b>Sabores:</b> ${p.sabores}</p>`:''}${p.preco?`<p class="preco">R$ ${p.preco}</p>`:''}<a class="btn comprar" href="https://wa.me/${MEU_WHATS}?text=${encodeURIComponent('Ol\u00e1! Quero comprar: '+p.nome+(p.preco?' (R$ '+p.preco+')':''))}" target="_blank" rel="noopener">${p.preco?'Comprar':'Consultar pre\u00e7o'}</a></div>
+      <div class="name">${p.foto?`<a class="fotobox" href="${p.foto}" target="_blank" rel="noopener" style="display:block"><img class="foto" src="${p.foto}" alt="${p.nome}" loading="lazy" onerror="this.parentNode.style.display='none'"><small>Clique para ampliar</small></a>`:''}<span class="pill">${nomes[p.tipo]}</span><h3>${p.nome}</h3><p style="color:var(--muted);font-size:.9rem">${p.formato}</p>${p.sabores?`<p style="font-size:.85rem;margin-top:6px"><b>Sabores:</b> ${p.sabores}</p>`:''}${p.preco?`<p class="preco">R$ ${p.preco}</p>`:''}${p.tamanhos?`<p style="font-size:.85rem;margin:0 0 6px"><b>Outros tamanhos:</b> ${p.tamanhos}</p>`:''}<a class="btn comprar" href="https://wa.me/${MEU_WHATS}?text=${encodeURIComponent('Ol\u00e1! Quero comprar: '+p.nome+(p.preco?' (R$ '+p.preco+')':''))}" target="_blank" rel="noopener">${p.preco?'Comprar':'Consultar pre\u00e7o'}</a></div>
       <div><h4>Principais ingredientes</h4><p>${resumo(p.ingredientes)}</p><details><summary>Ver lista completa</summary><p style="font-size:.85rem;margin-top:6px">${p.ingredientes}</p></details></div>
       <div><h4>Para que serve</h4><p>${p.para}</p><h4 style="margin-top:12px">Modo de uso</h4><p style="font-size:.92rem">${p.modo}</p><p style="margin-top:8px;font-size:.85rem"><a href="${p.link}" target="_blank" rel="noopener">P\u00e1gina oficial do produto</a></p></div>
     </article>`).join('');
