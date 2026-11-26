@@ -438,7 +438,8 @@ const MEU_WHATS = "5581999097522";
 /* ======= SEUS VIDEOS (Instagram ou YouTube) ======= */
 const VIDEOS = [
   {titulo: "Hype Drink", url: "https://www.instagram.com/reel/Df2LH7DOLmu/"},
-  {titulo: "", url: "https://www.instagram.com/reel/DgLC4HBy2pK/"}
+  {titulo: "", url: "https://www.instagram.com/reel/DgLC4HBy2pK/"},
+  {titulo: "", url: "https://www.instagram.com/reel/DfqVnV4h5nX/"}
 ];
 (function(){
   const g = document.getElementById('vgrid');
