@@ -1,4 +1,4 @@
-(function(){var st=document.createElement('style');st.textContent=":root{\n    --bg:#fbfaf6; --surface:#ffffff; --ink:#1d2a1f; --muted:#5b6b5e;\n    --brand:#2f7d32; --brand-2:#8bc34a; --accent:#ff7a1a; --line:#e3e8df;\n    --radius:14px;\n  }\n  #hype-app, #hype-app *{box-sizing:border-box}\n  #hype-app{margin:0;font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}\n  a{color:var(--brand)}\n  .wrap{max-width:1100px;margin:0 auto;padding:0 16px}\n  #hype-app header.top{background:var(--surface);border-bottom:1px solid var(--line);}\n  header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}\n  .brand{font-weight:800;font-size:1.1rem}\n  .brand small{display:block;font-weight:500;font-size:.75rem;color:var(--muted)}\n  nav a{margin-left:14px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}\n  .btn{display:inline-block;background:var(--brand);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}\n  .btn.alt{background:var(--accent)}\n  .btn.ghost{background:transparent;color:var(--brand);border:2px solid var(--brand)}\n\n  /* HERO \u2013 Hype Drink */\n  .hero{background:linear-gradient(135deg,#1b5e20,#43a047 55%,#ff9800);color:#fff;padding:64px 0}\n  .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}\n  .hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}\n  .hero p.lead{font-size:1.15rem;opacity:.95;margin:0 0 22px}\n  .tag{display:inline-block;background:rgba(255,255,255,.18);padding:4px 12px;border-radius:999px;font-size:.8rem;font-weight:700;letter-spacing:.04em;margin-bottom:14px}\n  .cup{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);padding:22px}\n  .cup h3{margin:0 0 10px}\n  .cup ul{margin:0;padding-left:18px}\n  .slogans{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}\n  .slogans span{background:#fff;color:var(--brand);font-weight:700;border-radius:999px;padding:6px 14px;font-size:.9rem}\n\n  section{padding:56px 0}\n  h2{font-size:clamp(1.6rem,3.5vw,2.2rem);margin:0 0 8px}\n  .sub{color:var(--muted);margin:0 0 28px}\n\n  /* Produtos */\n  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}\n  .tabs button{border:1px solid var(--line);background:var(--surface);padding:9px 18px;border-radius:999px;font-weight:700;cursor:pointer;color:var(--ink)}\n  .tabs button.on{background:var(--brand);color:#fff;border-color:var(--brand)}\n  .prod{display:grid;grid-template-columns:260px 1fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:14px;overflow:hidden}\n  .prod > div{padding:18px}\n  .prod .name{background:#f1f7ee}\n  .prod .foto{display:block;width:100%;max-width:170px;height:170px;object-fit:contain;margin:0 auto 12px;background:#fff;border-radius:10px}\n  .prod .name h3{margin:0 0 4px;font-size:1.1rem}\n  .pill{display:inline-block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:999px;background:var(--brand-2);color:#1d2a1f}\n  .prod h4{margin:0 0 6px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}\n  .prod p{margin:0}\n  details summary{cursor:pointer;color:var(--brand);font-size:.85rem;margin-top:6px}\n\n  /* Oportunidade */\n  .op{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}\n  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}\n  .card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:20px}\n  .card b.n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;margin-bottom:10px}\n  .notice{background:#fff8e6;border:1px solid #f3d27a;border-radius:var(--radius);padding:16px 18px;margin-top:22px;font-size:.92rem}\n\n  /* Formul\u00e1rio */\n  form{display:grid;gap:12px;max-width:560px}\n  label{font-weight:600;font-size:.92rem}\n  input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}\n  .check{display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:.88rem}\n  .check input{width:auto;margin-top:4px}\n\n  footer{background:#1d2a1f;color:#cfd8cf;padding:32px 0;font-size:.85rem}\n  footer a{color:#a5d6a7}\n\n  @media (max-width:820px){\n    .hero .wrap{grid-template-columns:1fr}\n    .prod{grid-template-columns:1fr}\n    .steps{grid-template-columns:1fr}\n    nav{display:none}\n  }";document.head.appendChild(st);})();
+(function(){var st=document.createElement('style');st.textContent=":root{\n    --bg:#fbfaf6; --surface:#ffffff; --ink:#1d2a1f; --muted:#5b6b5e;\n    --brand:#2f7d32; --brand-2:#8bc34a; --accent:#ff7a1a; --line:#e3e8df;\n    --radius:14px;\n  }\n  #hype-app, #hype-app *{box-sizing:border-box}\n  #hype-app{margin:0;font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}\n  a{color:var(--brand)}\n  .wrap{max-width:1100px;margin:0 auto;padding:0 16px}\n  #hype-app header.top{background:var(--surface);border-bottom:1px solid var(--line);}\n  header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}\n  .brand{font-weight:800;font-size:1.1rem}\n  .brand small{display:block;font-weight:500;font-size:.75rem;color:var(--muted)}\n  nav a{margin-left:14px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}\n  .btn{display:inline-block;background:var(--brand);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}\n  .btn.alt{background:var(--accent)}\n  .btn.ghost{background:transparent;color:var(--brand);border:2px solid var(--brand)}\n\n  /* HERO \u2013 Hype Drink */\n  .hero{background:linear-gradient(135deg,#1b5e20,#43a047 55%,#ff9800);color:#fff;padding:64px 0}\n  .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}\n  .hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 12px}\n  .hero p.lead{font-size:1.15rem;opacity:.95;margin:0 0 22px}\n  .tag{display:inline-block;background:rgba(255,255,255,.18);padding:4px 12px;border-radius:999px;font-size:.8rem;font-weight:700;letter-spacing:.04em;margin-bottom:14px}\n  .cup{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius);padding:22px}\n  .cup h3{margin:0 0 10px}\n  .cup ul{margin:0;padding-left:18px}\n  .slogans{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}\n  .slogans span{background:#fff;color:var(--brand);font-weight:700;border-radius:999px;padding:6px 14px;font-size:.9rem}\n\n  section{padding:56px 0}\n  h2{font-size:clamp(1.6rem,3.5vw,2.2rem);margin:0 0 8px}\n  .sub{color:var(--muted);margin:0 0 28px}\n\n  /* Produtos */\n  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}\n  .tabs button{border:1px solid var(--line);background:var(--surface);padding:9px 18px;border-radius:999px;font-weight:700;cursor:pointer;color:var(--ink)}\n  .tabs button.on{background:var(--brand);color:#fff;border-color:var(--brand)}\n  .prod{display:grid;grid-template-columns:260px 1fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:14px;overflow:hidden}\n  .prod > div{padding:18px}\n  .prod .name{background:#f1f7ee}\n  .prod .foto{display:block;width:100%;max-width:170px;height:170px;object-fit:contain;margin:0 auto 12px;background:#fff;border-radius:10px}\n  .prod .name h3{margin:0 0 4px;font-size:1.1rem}\n  .pill{display:inline-block;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:3px 9px;border-radius:999px;background:var(--brand-2);color:#1d2a1f}\n  .prod h4{margin:0 0 6px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}\n  .prod p{margin:0}\n  .prod .preco{font-size:1.35rem;font-weight:800;color:var(--brand);margin:10px 0 8px}\n  .prod .btn.comprar{padding:9px 18px;font-size:.9rem;margin-top:8px}\n  details summary{cursor:pointer;color:var(--brand);font-size:.85rem;margin-top:6px}\n\n  /* Oportunidade */\n  .op{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}\n  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}\n  .card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:20px}\n  .card b.n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--brand);color:#fff;margin-bottom:10px}\n  .notice{background:#fff8e6;border:1px solid #f3d27a;border-radius:var(--radius);padding:16px 18px;margin-top:22px;font-size:.92rem}\n\n  /* Formul\u00e1rio */\n  form{display:grid;gap:12px;max-width:560px}\n  label{font-weight:600;font-size:.92rem}\n  input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}\n  .check{display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:.88rem}\n  .check input{width:auto;margin-top:4px}\n\n  footer{background:#1d2a1f;color:#cfd8cf;padding:32px 0;font-size:.85rem}\n  footer a{color:#a5d6a7}\n\n  @media (max-width:820px){\n    .hero .wrap{grid-template-columns:1fr}\n    .prod{grid-template-columns:1fr}\n    .steps{grid-template-columns:1fr}\n    nav{display:none}\n  }";document.head.appendChild(st);})();
 (function(){
   function hypeInit(){
     if(document.getElementById('hype-app')) return;
@@ -15,6 +15,7 @@
 const PRODUTOS = [
  {
   "nome": "Beauty Booster",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 240 g",
   "sabores": "Frutas Vermelhas",
@@ -26,6 +27,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Creatina Premium",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 150 g",
   "sabores": "",
@@ -37,6 +39,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Fiber Powder",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3",
   "sabores": "Neutro",
@@ -48,6 +51,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Golden Beverage",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 45 g",
   "sabores": "Abacaxi, lim\u00e3o e gengibre",
@@ -59,6 +63,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbal Concentrate",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 102 g",
   "sabores": "Laranja and Especiarias, Lim\u00e3o, Original",
@@ -70,6 +75,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae CR7 Drive",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 810 g",
   "sabores": "Berry Mix",
@@ -81,6 +87,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae Glutamina",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 150 g",
   "sabores": "Neutro",
@@ -92,6 +99,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae Tri-Core Protein Blend",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 1010 g",
   "sabores": "Chocolate",
@@ -103,6 +111,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae Whey Protein 3W",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 510 g",
   "sabores": "Baunilha, Chocolate",
@@ -114,6 +123,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Liftoff\u00ae",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 efervescente em sach\u00ea \u00b7 15 Sach\u00eas",
   "sabores": "Abacaxi, Amora Intenso, Lim\u00e3o Siciliano",
@@ -125,6 +135,7 @@ const PRODUTOS = [
  },
  {
   "nome": "N-R-G",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 100 g",
   "sabores": "Guaran\u00e1 Tropical, Original",
@@ -136,6 +147,7 @@ const PRODUTOS = [
  },
  {
   "nome": "NutreV",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 672 g",
   "sabores": "Neutro",
@@ -147,6 +159,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Nutri Soup",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 416 g",
   "sabores": "Frango com Legumes",
@@ -158,6 +171,7 @@ const PRODUTOS = [
  },
  {
   "nome": "OnActive Drink",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 264g",
   "sabores": "Chocolate",
@@ -169,6 +183,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Protein Complete",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 550 g",
   "sabores": "Baunilha, Chocolate Sensation, Morango",
@@ -180,6 +195,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Protein Crunch",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 150 g",
   "sabores": "Chocolate",
@@ -191,6 +207,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Protein Powder",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 480 g",
   "sabores": "Neutro",
@@ -202,6 +219,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Shake",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 550 g",
   "sabores": "Banana Caramelizada, Baunilha Cremoso, Chocolate Sensation, Coco, Cookies and Cream, Doce de Leite, Frap\u00ea de Abacaxi, Morango Cremoso, Pistache, Torta de Lim\u00e3o",
@@ -213,6 +231,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Sopa Instant\u00e2nea",
+  "preco": "",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 7 Sach\u00eas",
   "sabores": "sabor Creme de Cebola",
@@ -224,6 +243,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Fiber Concentrate",
+  "preco": "",
   "tipo": "liquido",
   "formato": "Concentrado l\u00edquido 450 ml",
   "sabores": "Manga, Uva",
@@ -235,6 +255,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Fiber Concentrate Immune",
+  "preco": "",
   "tipo": "liquido",
   "formato": "Concentrado l\u00edquido 450 ml",
   "sabores": "Lim\u00e3o e Mel",
@@ -246,6 +267,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Barra de Prote\u00ednas",
+  "preco": "",
   "tipo": "solido",
   "formato": "Barra \u00b7 7 Barras",
   "sabores": "Citrus Lemon",
@@ -257,6 +279,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae BCAA 5:1:1",
+  "preco": "",
   "tipo": "solido",
   "formato": "Tabletes \u00b7 120 Tabletes ",
   "sabores": "",
@@ -268,6 +291,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalifeline \u00d4mega 3",
+  "preco": "",
   "tipo": "solido",
   "formato": "C\u00e1psulas \u00b7 90 C\u00e1psulas ",
   "sabores": "",
@@ -279,6 +303,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Multivitaminas & Minerais",
+  "preco": "",
   "tipo": "solido",
   "formato": "Tabletes \u00b7 90 Tabletes ",
   "sabores": "",
@@ -290,6 +315,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Shape Control",
+  "preco": "",
   "tipo": "solido",
   "formato": "C\u00e1psulas \u00b7 18,9 g",
   "sabores": "",
@@ -301,6 +327,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Xtra-Cal",
+  "preco": "",
   "tipo": "solido",
   "formato": "Tabletes \u00b7 60 Tabletes",
   "sabores": "",
@@ -312,13 +339,15 @@ const PRODUTOS = [
  }
 ];
 
+/* ======= SEU WHATSAPP (somente n\u00fameros, com DDI 55) ======= */
+const MEU_WHATS = "5581999097522";
 const lista = document.getElementById('lista');
 const nomes = {po:"Em p\u00f3", liquido:"L\u00edquido", solido:"S\u00f3lido"};
 function resumo(t){const s=t.split(/,\s*(?![^()]*\))/).slice(0,4).join(', ');return s.length<t.length?s+'\u2026':s;}
 function render(f){
   lista.innerHTML = PRODUTOS.filter(p => f==="todos" || p.tipo===f).map(p => `
     <article class="prod">
-      <div class="name">${p.foto?`<img class="foto" src="${p.foto}" alt="${p.nome}" loading="lazy">`:''}<span class="pill">${nomes[p.tipo]}</span><h3>${p.nome}</h3><p style="color:var(--muted);font-size:.9rem">${p.formato}</p>${p.sabores?`<p style="font-size:.85rem;margin-top:6px"><b>Sabores:</b> ${p.sabores}</p>`:''}</div>
+      <div class="name">${p.foto?`<img class="foto" src="${p.foto}" alt="${p.nome}" loading="lazy" onerror="this.style.display='none'">`:''}<span class="pill">${nomes[p.tipo]}</span><h3>${p.nome}</h3><p style="color:var(--muted);font-size:.9rem">${p.formato}</p>${p.sabores?`<p style="font-size:.85rem;margin-top:6px"><b>Sabores:</b> ${p.sabores}</p>`:''}${p.preco?`<p class="preco">R$ ${p.preco}</p>`:''}<a class="btn comprar" href="https://wa.me/${MEU_WHATS}?text=${encodeURIComponent('Ol\u00e1! Quero comprar: '+p.nome+(p.preco?' (R$ '+p.preco+')':''))}" target="_blank" rel="noopener">${p.preco?'Comprar':'Consultar pre\u00e7o'}</a></div>
       <div><h4>Principais ingredientes</h4><p>${resumo(p.ingredientes)}</p><details><summary>Ver lista completa</summary><p style="font-size:.85rem;margin-top:6px">${p.ingredientes}</p></details></div>
       <div><h4>Para que serve</h4><p>${p.para}</p><h4 style="margin-top:12px">Modo de uso</h4><p style="font-size:.92rem">${p.modo}</p><p style="margin-top:8px;font-size:.85rem"><a href="${p.link}" target="_blank" rel="noopener">P\u00e1gina oficial do produto</a></p></div>
     </article>`).join('');
@@ -330,8 +359,6 @@ document.getElementById('tabs').addEventListener('click', e => {
 });
 render("todos");
 
-/* ======= SEU WHATSAPP (somente n\u00fameros, com DDI 55) ======= */
-const MEU_WHATS = "5581999097522";
 document.getElementById('form').addEventListener('submit', e => {
   e.preventDefault();
   const msg = `Ol\u00e1! Sou ${document.getElementById("nome").value}. Tenho interesse em: ${document.getElementById("interesse").value}. Meu WhatsApp: ${document.getElementById("whats").value}`;
