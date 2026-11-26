@@ -111,7 +111,7 @@ const PRODUTOS = [
  },
  {
   "nome": "Herbalife24\u00ae Whey Protein 3W",
-  "preco": "258,00",
+  "preco": "256,00",
   "tipo": "po",
   "formato": "P\u00f3 \u00b7 510 g",
   "sabores": "Baunilha, Chocolate",
